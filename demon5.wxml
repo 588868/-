@@ -1,0 +1,10 @@
+<!--pages/demon5/demon5.wxml-->
+<view >
+<image src="http://img.mm4000.com/file/b/7a/4a3bec1103_800.jpg"class="yv"></image>
+<view class="box">落下的不是雨，是生灵</view>
+</view>
+<canvas class = "canvas" id="chart1"
+canvas-id="humidity"></canvas>
+
+<canvas class = "canvas" id="chart3"
+canvas-id="temperature"></canvas>

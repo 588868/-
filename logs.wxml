@@ -1,0 +1,12 @@
+<!--logs.wxml-->
+<view><calendar  weeks-type="cn"
+  days-color="{{dayStyle}}"
+  binddayClick="dayClick"
+lunar="{{lunar}}"calendar-style="calendar" header-style="header" board-style="board" />
+</view>
+<view class="ll" >
+<view class="ls display-area">
+  <view class="lll"style="center"bindtap="day">打卡啦 </view>
+</view>
+
+</view>

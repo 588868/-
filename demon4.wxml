@@ -1,0 +1,33 @@
+<!--pages/demon4/demon4.wxml--> 
+<swiper autoplay indicator-dots indicator-color="white" indicator-active-color="red" interval="3000" circular="true">
+<swiper-item><image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606985386&di=40506f3fe9ac3a2d05a110877e626bcb&imgtype=jpg&er=1&src=http%3A%2F%2Fimgsrc.baidu.com%2Fforum%2Fw%3D580%2Fsign%3D408ecc9c319b033b2c88fcd225cf3620%2F44453ea85edf8db15fb7adfc0c23dd54574e74b6.jpg"  /></swiper-item>
+ <swiper-item><image mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606986529&di=83aeac7f9396c2630cb95271aae6b6da&imgtype=jpg&er=1&src=http%3A%2F%2Fe.hiphotos.baidu.com%2Fzhidao%2Fwh%253D450%252C600%2Fsign%3D9403c769fdf2b211e47b8d4affb0490e%2Fe824b899a9014c08ea3d89bf0c7b02087bf4f4a2.jpg"  /></swiper-item>
+  <swiper-item><image mode="widthFix" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1606986020&di=a2754e0074b54befc8e8f37413a75b44&imgtype=jpg&er=1&src=http%3A%2F%2Fimg0.selfimg.com.cn%2FvogueminiImageSmall%2F2015%2F05%2F28%2F1432799380_WJrRaw.jpg" /></swiper-item>
+</swiper>
+<view class="page-section">
+  <view class="page-section-title">忙里有乐</view>
+  <input placeholder="请输入时间"/>
+  <view class="textarea-wrp">
+    <textarea auto-height placeholder="生活就是在忙碌中的充实" />
+  </view>
+  <button bindtap="setStorageSync"disabled="{{disabled}}"type="red">添加事件</button>
+</view>
+<view class="page-section">
+  <view class="page-section-title">爱它就是要记下它的问题</view>
+ <view class="flex" >
+  <input placeholder="请输入时间"name="key"bindconfirm="keyInput"/>
+  <view class="textarea-wrp">
+    <textarea auto-height placeholder="记下点点" name="value" bindconfirm="valueInput"/>
+  </view>
+  </view>
+ 
+</view>
+<button bindtap="setStorageSync"disabled="{{disabled}}"type="red">添加事件</button>
+<view class="page-section">
+  <view class="page-section-title">唯有热爱</view>
+  <input placeholder="请输入时间"/>
+  <view class="textarea-wrp">
+    <textarea auto-height placeholder="生活不只眼前的苟且还有诗和远方"/>
+  </view>
+  <button bindtap="setStorageSync"disabled="{{disabled}}"type="red">添加事件</button>
+</view>

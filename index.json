@@ -1,0 +1,10 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#b6eb96",
+    
+    "navigationBarTextStyle": "white"
+  },
+  "navigationBarTitleText": "车辆管理"
+
+}

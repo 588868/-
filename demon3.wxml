@@ -1,0 +1,39 @@
+<!--pages/demon3/demon3.wxml-->
+<view class="continer">
+<image src="http://a1.qpic.cn/psc?/V11FA0Dy3qq7UT/ruAMsa53pVQWN7FLK88i5kUuOsCttdBYJkYCp*EM4jFwv4dt1er.GzjfxzYQXQB1hwzIW37xDV69SrLlfOEjYpEqxSuzOdmlDJWrqsaZfZA!/c&ek=1&kp=1&pt=0&bo=oAUACqAFAAoRECc!&tl=3&vuin=1753048979&tm=1607990400&sce=60-2-2&rf=0-0"class="class"></image>
+<view class="sectionTitle">爱车</view>
+<view class="sectionTitle "> 实验一 </view>
+<map class="map" id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" markers="{{markers}}" show-location="{{show_location}}" subkey="MRUBZ-TE3K3-24S3G-YR65Y-7XLBS-5QFHU" layer-style="1" enable-3D="true" show-compass="{{show_compass}}" show-scale="{{show_scale}}" enable-overlooking="{{enable_overlooking}}" enable-zoom="{{enable_zoom}}" enable-scroll="{{enable_scroll}}" enable-rotate="true" enable-satellite="true" enable-traffic="true" bindtap="tapMap" bindmarkertap="tapMarker" bindlabeltap="tapLabel" bindcallouttap="tapCallout" bindregionchange="regionchange" bindpoitap="tapPOI"></map> 
+<view class="row">
+  <view class="left">
+    <view class="text">开启卫星图</view>
+    <switch class="switch" checked="{{enable_satellite}}" bindchange="is_enableSatellite"></switch>
+  </view>
+  <view class="right">
+    <view class="text">开启实时路况</view>
+    <switch class="switch" checked="{{enable_traffic}}" bindchange="is_enableTraffic"></switch>
+  </view>
+</view>
+<view class="feature-container pl20">
+  <view class="feature-content  border-bottom">
+    <text class="feature-label">地图回调</text>
+    <text class="feature-txt">{{mapCallbackTxt}}</text>
+  </view>
+  <view class="feature-content  border-bottom">
+    <text class="feature-label">标注回调</text>
+    <text class="feature-txt">{{markerCallbackTxt}}</text>
+  </view>
+  <view class="feature-content border-bottom">
+    <text class="feature-label">POI回调</text>
+  <text class="feature-txt">{{poiCallbackTxt}}</text>
+  </view>
+  <view class="feature-content">
+    <text class="feature-label">视野变化回调</text>
+    <text class="feature-txt">{{regionCallbackTxt}}</text>
+  </view>
+  <view class="feature-content">
+    <text class="feature-label">视野缩放回调</text>
+    <text class="feature-txt">{{regionScaleTxt}}</text>
+  </view>
+</view>
+</view>

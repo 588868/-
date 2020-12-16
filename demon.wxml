@@ -1,0 +1,23 @@
+<!--pages/demon1/demon.wxml-->
+<view class="continer">
+  <image src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2790238900,1945032302&fm=26&gp=0.jpg"class="class"></image>
+  <view class="class1">
+<text class="luosheng1">愿世界以温柔待你</text>  
+<view class="flex">
+
+  <view class="box">
+    <image bindtap="etDataFromOneNet"src="cloud://wxbdb4324c57b8da55-6d8hha2d06550.7778-wxbdb4324c57b8da55-6d8hha2d06550-1303254539/images/温度计.png"class="box"></image>
+    <text class="text">温度</text>
+  </view>
+  <view class="box">
+    <image bindtap="shidu"src="cloud://wxbdb4324c57b8da55-6d8hha2d06550.7778-wxbdb4324c57b8da55-6d8hha2d06550-1303254539/images/湿度.png"class="box"></image>
+    <text class="text">湿度</text>
+  </view>  
+  <view class="box">
+    <image bindtap="pm2"src="../images/pm2.5.png"class="box"></image>
+    <text class="text">pm2.5</text>
+  </view>  
+</view>
+  </view>
+ <view class="luosheng">你的每天有我来陪伴</view> 
+</view>

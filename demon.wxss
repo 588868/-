@@ -1,0 +1,43 @@
+/* pages/demon1/demon.wxss */
+.class{
+  top:0px;
+  left:0px;
+  position: fixed;
+  width:100%;
+  height:100% ;
+  z-index: -1;
+  filter:blur(2px);
+}
+.class1{
+
+  text-align: center;
+  margin-top: 40px;
+}
+.text{
+  color: aliceblue;
+  font-family: initial;
+}
+.luosheng{
+  color: #bfe9a0;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "SetoFont";
+}
+.luosheng1{
+  color: #bfe9a0;
+  font-size: 36px;
+  text-align: center;
+  font-family: "SetoFont";
+ 
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 175px;
+}
+.box{
+  height:125rpx;
+  width:150rpx;
+  border: 1px solid #C7CAC7;
+}

@@ -1,0 +1,8 @@
+<!--pages/demon2/demon2.wxml-->
+<view class="continer">
+<image src="https://m.qpic.cn/psc?/V1072tZc0ZmU9b/ruAMsa53pVQWN7FLK88i5jTmhzbs8P4qR4cbBBw22B8hLq4DRVPt4*r3HbAczSq3Ydk3.zLVcNJqG9y.2yqV2FGXEqFFp1eRs*WwsnpxW5U!/mnull&bo=9AHkAgAAAAABBzM!&rf=photolist&t=5"class="class"></image>
+<view class="sectionTitle">爱车</view>
+<view class="sectionTitle "> 保护 </view>
+<input password placeholder="请输入密码"/>
+</view>
+<button bindtip="setStorageSync"disabled="false"type="red">点击按钮</button>

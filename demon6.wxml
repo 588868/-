@@ -1,0 +1,5 @@
+<!--pages/demon6/demon6.wxml-->
+<view >
+  <image src="https://uploadfile.bizhizu.cn/up/7d/09/5d/7d095d9be35638048831d5f84a8d185a.jpg.230.350.jpg"class="shi"></image>
+  <view class="box"></view>
+  </view>

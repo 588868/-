@@ -1,0 +1,50 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  padding: 40rpx;
+}
+.log-item {
+  margin: 10rpx;
+}
+.calendar {
+  background-color: #eeedff;
+  padding-top: 10px;
+}
+.ll{
+ 
+  justify-content: center;
+  height: 70px;
+  width:70px;
+  border-radius: 50%;
+ 
+ margin-top: 30rpx;
+ margin-left: 40%;
+  
+}
+.ls{
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin-top: 100%;
+ margin-left: 10%;
+
+}
+.lll{
+  text-align: center;
+  
+  padding-top: 30%;
+}
+.header {
+  font-size: large; /*修改了标题文字和按钮的大小*/
+  color: #605eac;   /*修改了标题文字和按钮的颜色*/
+}
+.board {
+  background-color: #dddcff;
+  color: white;
+}
+.calendar-cell cell-rounded{
+  color: antiquewhite;
+}
