@@ -1,0 +1,4 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="getDataFromOneNet">
+点击查看数据</button>
