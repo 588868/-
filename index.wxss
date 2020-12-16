@@ -1,0 +1,53 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+.userinfo-nickname {
+  color: #aaa;
+  font-family: "QIJIFALLBACK";
+  font-size:30px;
+}
+.mu{
+  margin-top: 200px;
+}
+.lu{
+  color: bisque;
+ text-align: center;
+ font-size: 15px;
+ font-family: "Bitstream Vera Serif Bold";
+ position: fixed;
+ margin-left: 40%;
+ margin-top: 40rpx;
+}
+.nu{
+ color: bisque;
+ text-align: center;
+ font-size: 15px;
+ font-family: "Bitstream Vera Serif Bold";
+ position: fixed;
+ margin-left: 38%;
+}
+
+
+
+
+
+.class{
+  top:0px;
+  left:0px;
+  position: fixed;
+  width:200%;
+  height:200% ;
+  z-index: -1;
+  position: absolute;
+  
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  
+}
